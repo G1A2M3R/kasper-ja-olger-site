@@ -1,1 +1,25 @@
-lalala
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20%;
+        }
+    </style>
+</head>
+<body>
+    <h1>võrgustamine</h1>
+    <button onclick="nextPage()">Next Page</button>
+
+    <script>
+        function nextPage() {
+            window.location.href = 'page3.html';
+        }
+    </script>
+</body>
+</html>
